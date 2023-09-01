@@ -1,0 +1,23 @@
+{
+  "name": "mlearning.studio",
+  "version": "1.0.0",
+  "description": "Machine Learning Studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/mlearning.studio.git"
+  },
+  "keywords": [
+    "machine",
+    "Learning"
+  ],
+  "author": "suiGn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiGn/mlearning.studio/issues"
+  },
+  "homepage": "https://github.com/suiGn/mlearning.studio#readme"
+}
