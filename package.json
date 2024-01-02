@@ -2,7 +2,8 @@
   "name": "mlearning.studio",
   "version": "1.0.0",
   "description": "Machine Learning Studio",
-  "main": "index.js",
+  "main": "server.js",
+  "repoType": "App",
   "scripts": {
     "test": "test"
   },
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/suiGn/mlearning.studio/issues"
   },
-  "homepage": "https://github.com/suiGn/mlearning.studio#readme"
+  "homepage": "https://github.com/suiGn/mlearning.studio#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "this.gui": "^0.0.42"
+  }
 }
