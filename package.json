@@ -6,7 +6,7 @@
   "repoType": "App",
   "scripts": {
     "test": "test",
-    "start": "node server.js"
+    "start": "node server.js" 
   },
   "repository": {
     "type": "git",

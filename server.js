@@ -23,7 +23,6 @@ app.get('/gallery', (req, res) => {
     const BackgroundDir = path.join(__dirname, 'public', 'images', 'PixelArt', 'bckgrd');
     let noBackgroundImages = [];
     let withBackgroundImages = [];
-
     try {
         noBackgroundImages = fs.readdirSync(noBackgroundDir)
                                .filter(file => /\.(jpg|jpeg|png|gif)$/i.test(file));
@@ -33,9 +32,12 @@ app.get('/gallery', (req, res) => {
         console.error('Error reading directory:', err);
         // Handle the error or set noBackgroundImages to an empty array
     }
-
     res.render('8bit-gallery', { noBackgroundImages, withBackgroundImages });
 });
+
+app.get('/datasets', (req, res) => {
+    res.json({ message: 'List of datasets' });
+  });
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
