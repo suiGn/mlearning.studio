@@ -5,7 +5,8 @@
   "main": "server.js",
   "repoType": "App",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
